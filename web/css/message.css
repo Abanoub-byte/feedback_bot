@@ -1,0 +1,65 @@
+.message,
+.message button {
+    transition: all 0.3s ease-in-out;
+}
+
+.message {
+    grid-template-columns: 2fr 1fr 1fr;
+    background: linear-gradient(to top left, #E0E0E0, #ffffff);
+    max-width: 90%;
+    display: grid;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-radius: 0.3rem;
+    border: 1px solid gainsboro;
+    margin: 1%;
+}
+
+.message:hover {
+    transform: scale(1.04);
+}
+
+.answer {
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    margin: 1%;
+}
+
+.message_field {
+    margin: 2%;
+    text-align: center;
+}
+
+.message_field img {
+    max-width: 60%;
+    margin: 1%;
+    border: 1px solid black;
+}
+
+.message_field video {
+    max-width: 200px;
+    margin: 3%;
+}
+
+.message button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1%;
+}
+
+.message button:hover {
+    transform: scale(1.05);
+    background-color: #FF4040;
+}
+
+.no-answer {
+    font-size: medium;
+    font-weight: bold;
+    margin: 2%;
+}
